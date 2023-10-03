@@ -250,7 +250,7 @@ int main()
 	freopen("input.txt", "r", stdin);
 	switch(n){
 		case 1:
-			freopen("output_BreathFirstSerach.txt", "w", stdout);
+			freopen("output_BFS.txt", "w", stdout);
 			bfs.solve();
 			freopen("CON", "w", stdout);
 			break;
